@@ -1,15 +1,16 @@
 body {
-    font-family: Helvetica,Arial, Sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin: 0;
+    font-weight: 100;
 }
 
 body > header {
-    background-color: dodgerblue;
-    color: white;
+    background-color: darkseagreen;
+    color: rgb(202, 235, 202);
 }
 
-body > footer {
-    background-color: dodgerblue;
+#logo {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 header > nav > ul {
@@ -17,16 +18,75 @@ header > nav > ul {
 }
 
 header > nav > ul > li > a {
-    color: white;
+    color: rgb(202, 235, 202);
+    text-decoration: none;
     cursor: pointer;
+    font-weight: bold;
+}
+
+#email {
+    border: green solid 1px;
+    border-radius: 8px
+}
+
+#password {
+    border: green solid 1px;
+    border-radius: 8px
+}
+
+section > nav >ul {
+    list-style: none;
+}
+
+section > nav > ul > li > a {
+    color: darkgreen;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+h2 {
+    color: darkseagreen
+}
+
+h3 {
+    color: green
+}
+
+#comments {
+    width: 80%;
+    min-height: 80px;
+    border: green solid 2px;
+    border-radius: 8px
+}
+
+.submit-botton {
+    background-color: rgb(158, 194, 158);
+    color: green;
+    border: green solid 1px;
+    border-radius: 8px
+}
+
+.user-image{
+  border-radius: 50%  
+}
+
+.username {
+    color: black;
+    font-size: 20px;
+}
+
+.posted-date {
+    font-size: 14px;
+    color: black
 }
 
 body > footer {
-    background-color: dodgerblue;
+    background-color: darkseagreen;
 }
 
 body > footer > p {
     padding: 16px;
-    color: white;
+    color: rgb(202, 235, 202);
     text-align: center;
 }

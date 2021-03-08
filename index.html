@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">      
     <title>CodeClan News</title>
 </head>
 <body>
@@ -40,26 +42,28 @@
                   <input type="password" name="password" id="password" required>
                 </div>
                 <div class="form-example">
-                  <input type="submit" value="Submit">
+                  <input type="submit" value="Submit" class="submit-botton">
                 </div>
               </form>
          </section>
          <section>
             <h2>Categories</h2>
-            <ul>
-                <li>
-                    <a href="/latest">Latest</a>
-                </li>
-                <li>
-                    <a href="/local">Local</a>
-                </li>
-                <li>
-                    <a href="/politics">Politics</a>
-                </li>
-                <li>
-                    <a href="/sports">Sports</a>
-                </li>
-            </ul> 
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="/latest">Latest</a>
+                        </li>
+                        <li>
+                            <a href="/local">Local</a>
+                        </li>
+                        <li>
+                            <a href="/politics">Politics</a>
+                        </li>
+                        <li>
+                            <a href="/sports">Sports</a>
+                        </li>
+                    </ul> 
+                </nav>
          </section>
         </aside>
         <aside>
@@ -68,21 +72,21 @@
                 <h3>Breaking News</h3>
             </hgroup>
             <section>
-                <img src="https://placebear.com/100/100" alt="News story pic 1">
+                <img src="https://placebear.com/g/200/150" alt="News story pic 1">
                 <h4>Story Headline 1</h4>
                 <p>
                     This is the first line of the article. The user would be able to click on the preview to read more...
                 </p>
             </section>
             <section>
-                <img src="https://placebear.com/100/100" alt="News story pic 2">
+                <img src="https://placebear.com/g/200/150" alt="News story pic 2">
                 <h4>Story Headline 2</h4>
                 <p>
                     This is the first line of the article. The user would be able to click on the preview to read more...
                 </p>
             </section>
             <section>
-                <img src="https://placebear.com/100/100" alt="News story pic 3">
+                <img src="https://placebear.com/g/200/150" alt="News story pic 3">
                 <h4>Story Headline 3</h4>
                 <p>
                     This is the first line of the article. The user would be able to click on the preview to read more...
@@ -122,30 +126,30 @@
                     <label for="comments"></label>
                     <input type="text" name="comments" id="comments" required>
                     </div>
-                    <div class="form-example">
-                    <input type="submit" value="Submit">
+                    <div>
+                    <input type="submit" value="Submit" class="submit-botton">
                     </div>
                 </form>
             </section>
             <section>
-                <img src="https://placebear.com/g/100/100" alt="user picture">
+                <img src="https://placebear.com/g/100/100" alt="user picture" class="user-image">
                 <hgroup>
-                    <h2>Username</h2>
-                    <h3>Posted: 23/03/2020</h3>
+                    <h2 class="username">Username</h2>
+                    <h3 class="posted-date">Posted: 23/03/2020</h3>
                 </hgroup>
                 <p>This was interesting. Thanks</p>
                 <hr>
-                <img src="https://placebear.com/g/100/100" alt="user picture">
+                <img src="https://placebear.com/g/100/100" alt="user picture" class="user-image">
                 <hgroup>
-                    <h2>Username</h2>
-                    <h3>Posted: 25/03/2020</h3>
+                    <h2 class="username">Username</h2>
+                    <h3 class="posted-date">Posted: 25/03/2020</h3>
                 </hgroup>
                 <p>This was interesting. Thanks</p>
                 <hr>
-                <img src="https://placebear.com/g/100/100" alt="user picture">
+                <img src="https://placebear.com/g/100/100" alt="user picture" class="user-image">
                 <hgroup>
-                    <h2>Username</h2>
-                    <h3>Posted: 26/03/2020</h3>
+                    <h2 class="username">Username</h2>
+                    <h3 class="posted-date">Posted: 26/03/2020</h3>
                 </hgroup>
                 <p>Thanks. I hate it.</p>
             </section>
