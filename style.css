@@ -11,6 +11,7 @@ body > header {
 
 #logo {
     font-family: 'Ubuntu', sans-serif;
+    margin: 0;
 }
 
 header > nav > ul {
